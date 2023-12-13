@@ -3,8 +3,9 @@
   "name": "Beamo Search Helper",
   "version": "1.0",
   "description": "Makes Beamo Search an available search engine option.",
-  "action": {
-    "default_popup": "popup.html"
+  "action": {},
+  "icons": {
+    "128": "icon.png"
   },
   "chrome_settings_overrides" : {
     "search_provider" : {
