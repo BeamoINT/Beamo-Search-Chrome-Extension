@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Custom Search Engine Setter",
+  "name": "Beamo Search Helper",
   "version": "1.0",
-  "description": "Suggests setting a custom search engine",
+  "description": "Sets Beamo Search as the user's default search engine.",
   "permissions": ["storage", "search"],
   "background": {
     "service_worker": "background.js"
