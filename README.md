@@ -1,0 +1,1 @@
+This is the code for the Beamo Search Chrome extension that sets Beamo Search as your default search engine on all Chromium based browsers so that you can use Beamo Search as your default search engine easily without having to worry about how to set it as your default search engine.
