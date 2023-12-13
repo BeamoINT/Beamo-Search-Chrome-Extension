@@ -2,13 +2,18 @@
   "manifest_version": 3,
   "name": "Beamo Search Helper",
   "version": "1.0",
-  "description": "Sets Beamo Search as the user's default search engine.",
-  "permissions": ["storage", "search"],
-  "background": {
-    "service_worker": "background.js"
-  },
+  "description": "Makes Beamo Search an available search engine option.",
   "action": {
     "default_popup": "popup.html"
   },
-  "options_page": "options.html"
+  "chrome_settings_overrides" : {
+    "search_provider" : {
+      "name" : "Beamo Search",
+      "keyword" : "Beamo",
+      "search_url" : "https://beamosearch.com/results.html?q={searchTerms}",
+      "favicon_url" : "https://beamosearch.com/favicon.ico",
+      "encoding" : "UTF-8",
+      "is_default" : false
+    }
+  }
 }
