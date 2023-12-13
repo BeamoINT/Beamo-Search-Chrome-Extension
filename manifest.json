@@ -8,12 +8,12 @@
   },
   "chrome_settings_overrides" : {
     "search_provider" : {
-      "name" : "Beamo Search",
+      "name" : "Beamo",
       "keyword" : "Beamo",
       "search_url" : "https://beamosearch.com/results.html?q={searchTerms}",
       "favicon_url" : "https://beamosearch.com/favicon.ico",
       "encoding" : "UTF-8",
-      "is_default" : false
+      "is_default" : true
     }
   }
 }
