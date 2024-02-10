@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Beamo Search",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Makes Beamo Search Your Default Search Engine",
   "action": {
     "default_icon": {
@@ -17,7 +17,7 @@
     "search_provider" : {
       "name" : "Beamo",
       "keyword" : "Beamo",
-      "search_url" : "https://beamosearch.com/results.html?q={searchTerms}",
+      "search_url" : "https://beamosearch.com/html/results.html?q={searchTerms}",
       "favicon_url" : "https://beamosearch.com/favicon.ico",
       "encoding" : "UTF-8",
       "is_default" : true
